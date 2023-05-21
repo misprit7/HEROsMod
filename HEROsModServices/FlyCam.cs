@@ -116,10 +116,10 @@ namespace HEROsMod.HEROsModServices
 					if (Main.keyState.IsKeyDown(Keys.LeftAlt)) speed *= .3f;
 					if (Main.keyState.IsKeyDown(Keys.LeftShift)) speed *= 1.5f;
 
-					if (PlayerInput.Triggers.Current.KeyStatus["Left"]) FlyCamPosition.X -= speed;
-					if (PlayerInput.Triggers.Current.KeyStatus["Right"]) FlyCamPosition.X += speed;
-					if (PlayerInput.Triggers.Current.KeyStatus["Up"]) FlyCamPosition.Y -= speed;
-					if (PlayerInput.Triggers.Current.KeyStatus["Down"]) FlyCamPosition.Y += speed;
+					if (PlayerInput.Triggers.Current.KeyStatus["Hotbar9"]) FlyCamPosition.X -= speed;
+					if (PlayerInput.Triggers.Current.KeyStatus["Hotbar10"]) FlyCamPosition.X += speed;
+					if (PlayerInput.Triggers.Current.KeyStatus["Hotbar8"]) FlyCamPosition.Y -= speed;
+					if (PlayerInput.Triggers.Current.KeyStatus["Hotbar7"]) FlyCamPosition.Y += speed;
 				}
 
 				//Vector2 size = new Vector2(Main.screenWidth, Main.screenHeight);
